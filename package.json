@@ -1,0 +1,11 @@
+{
+  "name": "adwmx-relay",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy --config ./wrangler.toml",
+    "dev": "wrangler dev --config ./wrangler.toml"
+  },
+  "devDependencies": {
+    "wrangler": "4.158.0"
+  }
+}
